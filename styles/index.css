@@ -69,6 +69,7 @@ nav .btn {
     color: #469165;
     margin-top: 116px;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 .para {
     width: 770px;
@@ -92,7 +93,7 @@ nav .btn {
     padding-top: 16px;
     padding-bottom: 32px;
 }
-.banner .vault {
+.banner .vault , .foot-content .foot-but {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -241,4 +242,37 @@ nav .btn {
     line-height: 20px;
     color: #001931;
     padding-bottom: 16px;
+}
+
+
+.footer {
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.footer .foot-content {
+    text-align: center;
+    padding: 80px 0px;
+    background-color: #F7F6F2;
+    margin: 120px 0px;
+}
+.foot-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.foot-content p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+.foot-content .foot-but {
+    margin-bottom: 16px;
+}
+.btn:hover , .ban-but:hover , .vault:hover , .foot-but:hover , .works:hover {
+    background-color: aqua;
 }
