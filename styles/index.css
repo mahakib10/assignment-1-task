@@ -155,13 +155,11 @@ nav .btn {
     align-items: center;
     gap: 24px;
     margin-bottom: 100px;
-    /* width: 1140px; */
 }
 .card .card-info {
     width: 322px;
     height: 300px;
     padding: 69px 24px;
-    /* border: 1px solid black; */
 }
 .card .card-info .icon-box {
     width: 60px;
@@ -172,13 +170,9 @@ nav .btn {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    /* text-align: center; */
 }
 .icon-box img {
     width: 27px;
-    /* text-align: center; */
-    /* display: block; */
-    /* margin: 0 auto; */
 }
 .card-info h3 {
     font-size: 24px;
@@ -186,7 +180,6 @@ nav .btn {
     line-height: 100%;
     color: #001931;
     width: 274px;
-    /* height: 20px; */
     padding: 16px 24px;
 }
 .card-info p {
@@ -195,4 +188,57 @@ nav .btn {
     line-height: 20px;
     color: #627382;
     width: 274px;
+}
+
+
+.brain {
+    width: 74%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brain .bra-img {
+    width: 600px;
+    height: 600px;
+}
+.brain .bra-content {
+    padding: 102px 60px;
+    width: 700px;
+}
+.bra-content .bra-head {
+    height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    padding-bottom: 16px;
+}
+.bra-content h2 {
+    height: 116px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.bra-content .bra-para {
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 40px;
+}
+.bra-content .bra-opt .bra-1 {
+    display: inline-flex;
+}
+.bra-1 p {
+    height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    padding-bottom: 16px;
 }
